@@ -102,7 +102,6 @@ class HashTable{
                 this.add(temp[i].word, temp[i].count);
             }
         }
-        console.log("REHASH FINISHED");
         
     }
 
@@ -126,7 +125,6 @@ const detectLanguage = (HashTable) => {
     for(let i=0; i < len; i++)
     {
         if(HashTable.contains(TurkishStopWords[i])) {
-            console.log(TurkishStopWords[i]);
             turCount++;
             if(turCount >= 5) return 'tur';
         }
@@ -135,7 +133,6 @@ const detectLanguage = (HashTable) => {
     for(let i = 0; i < len ; i++)
     {
         if(HashTable.contains(EnglishStopWords[i])) {
-            console.log(EnglishStopWords[i]);
             engCount++;
             if(engCount >= 5) return 'en';
         }
@@ -435,40 +432,6 @@ function TextBox({result, setResult}) {
         };
 
         language = detectLanguage(hs);
-/*
-        if(!languageDetected)
-        {
-            let eLen = EnglishStopWords.length;
-            for(let e = 0; e < eLen; e++)
-            {
-                if(hs.contains(EnglishStopWords[i]))
-                {
-                    language = 'en';
-                    languageDetected = true;
-                    break;
-                }
-            }
-        }
-
-        if(!languageDetected)
-        {
-            let eLen = TurkishStopWords.length;
-            for(let e = 0; e < eLen; e++)
-            {
-                if(hs.contains(TurkishStopWords[i]))
-                {
-                    language = 'tur';
-                    languageDetected = true;
-                    break;
-                }
-            }
-        }
-
-        if(!languageDetected)
-        {
-            language = '';
-        }
-*/
 
         let wordsArray = hs.toArray();
 
@@ -479,11 +442,6 @@ function TextBox({result, setResult}) {
 
         orderByCommon = buildHeap(orderByCommon);
 
-        /*
-        console.log("WORDS ARRAY");
-        console.log(hs);
-        console.log(wordsArray);
-        console.log(allWords);*/
 
 
         tempArray = getMax(orderByCommon);
