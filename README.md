@@ -1,3 +1,9 @@
+#Task for Otsimo Summer Internship
+
+#About parsing and data manipulation
+
+While a for loop parses the text all words are kept in a hashtable. If a word already exist its count will increased by one.
+After the parsing is done it checks for stopwords in the hashtable. Since it is a hashtable each word check is done in O(1) time.
 
 ![Screenshot from 2021-02-23 12-29-50](https://user-images.githubusercontent.com/63292060/108832094-b333d580-75d3-11eb-840a-9d1a359efa3c.png)
 ![Screenshot from 2021-02-23 12-30-00](https://user-images.githubusercontent.com/63292060/108832083-ae6f2180-75d3-11eb-84ca-c428a6f5a69e.png)
