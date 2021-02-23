@@ -1,6 +1,6 @@
-#Task for Otsimo Summer Internship
+# Task for Otsimo Summer Internship
 
-#About parsing and data manipulation
+# About parsing and data manipulation
 
 While a for loop parses the text all words are kept in a Hashtable. If a word already exist its count will increased by one.
 After the parsing is done it checks for stopwords in the Hashtable. Since it is a Hashtable each word check is done in O(1) time. Then Hashtable passes its elements into an array. We have two copies of that array, with one we build a max Heap based on their occurence count in the text so that we will find top 5 words easily, the other copy gets sorted with Merge Sort based on their length so that we can find the median value and it's length.
