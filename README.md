@@ -1,7 +1,8 @@
 
+![Screenshot from 2021-02-23 12-29-50](https://user-images.githubusercontent.com/63292060/108832094-b333d580-75d3-11eb-840a-9d1a359efa3c.png)
 ![Screenshot from 2021-02-23 12-30-00](https://user-images.githubusercontent.com/63292060/108832083-ae6f2180-75d3-11eb-84ca-c428a6f5a69e.png)
 ![Screenshot from 2021-02-23 12-30-16](https://user-images.githubusercontent.com/63292060/108832090-b16a1200-75d3-11eb-8306-3664d875cb9d.png)
-![Screenshot from 2021-02-23 12-29-50](https://user-images.githubusercontent.com/63292060/108832094-b333d580-75d3-11eb-840a-9d1a359efa3c.png)
+
 
 # Getting Started with Create React App
 
