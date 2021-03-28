@@ -1,4 +1,3 @@
-# Task for Otsimo Summer Internship Application
 
 # About parsing and data manipulation
 
